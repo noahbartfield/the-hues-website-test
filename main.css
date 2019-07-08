@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(207, 207, 175);
+    /* margin-left: 200px; */
+    /* margin-right: 100px; */
+}
+
+img {
+    height: auto;
+    width: 1000px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    text-transform: lowercase;
+}
