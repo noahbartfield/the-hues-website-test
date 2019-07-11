@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 section {
@@ -10,21 +11,38 @@ section {
     /* margin-right: 100px; */
 }
 
-img {
-    height: auto;
-    width: 1000px;
+.blueHuesPicture {
+    max-width: 100%;
 }
 
-nav {
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(245, 243, 238);
+}
+
+.TheHuesName {
+    text-transform: uppercase;
+    padding: 4px;
+}
+
+.navbarListContainer {
     display: flex;
     justify-content: center;
-}
-
-h4 {
-    text-transform: uppercase;
-}
-
-ul {
     list-style: none;
     text-transform: lowercase;
+}
+
+.listItem {
+    padding: 10px 4px 2px 4px;
+
+}
+
+.listItem--a {
+    text-decoration: none;
+    color: black;
+}
+
+.listItem--a:hover {
+    color: gray;
 }
